@@ -27,7 +27,9 @@ public class BaseCommand implements CommandExecutor {
 					//System.out.println(Info.getArg(0));
 					CrateHelp.Fire(Info);
 				}
-			}
+			}else{
+                CrateOpen.Fire(Info);
+            }
 		}
 		
 		return false;

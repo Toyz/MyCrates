@@ -10,7 +10,7 @@ import com.toyz.MysteryCrates.Util.Messages;
 
 public class CrateGive extends BaseCommand {
 	private static IssueCommands _cmd = null;
-	private static String _Permission = "crate.open";
+	private static String _Permission = "crate.give";
 	private static int _minArgs = 3;
 	private static String _invaidUsage = "Invalid Args - usage:";
 	

@@ -1,12 +1,15 @@
 name: MysteryCrates
 main: com.toyz.MysteryCrates.MysteryCrates
-version: 1.1
+version: 1.2
 author: Toyz
 description: Allows you to give users random crates
 commands:
   crate:
     description: Base Crate Command
-    
+    aliases: cr8
+    aliases: cr8
+    aliases: cr8
+
 permissions:
   crate.help:
     description: Allows you to see the help menu

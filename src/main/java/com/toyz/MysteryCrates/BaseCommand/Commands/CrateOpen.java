@@ -21,7 +21,7 @@ public class CrateOpen extends BaseCommand {
 		if(_cmd.isPlayer()){
 			Trigger();
 		}else{
-			sendMessage(Messages.Format("You can only run this frm in-game"));
+			sendMessage(Messages.Format("You can only run this from in-game"));
 		}
 		return true;
 	}
