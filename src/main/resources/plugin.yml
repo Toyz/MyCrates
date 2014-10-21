@@ -7,8 +7,6 @@ commands:
   crate:
     description: Base Crate Command
     aliases: cr8
-    aliases: cr8
-    aliases: cr8
 
 permissions:
   crate.help:
