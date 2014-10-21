@@ -1,0 +1,20 @@
+#Cost: 1 - the price in which it cost to open the crate
+#Rewards: - is the section in which you define rewards
+#Rewards:commands - Commands you wish to run
+
+prefix: "&8[MysteryCrates]&7"
+#Cost of open command
+cost: 1
+
+rewards:
+  #List of all possible rewards
+  '1':
+    #Commands to fire
+    commands:
+      - give %player 276 1
+      - give %player 277 1
+  #List of all possible rewards
+  '2':
+    #Commands to fire
+    commands:
+      - give %player 264 1

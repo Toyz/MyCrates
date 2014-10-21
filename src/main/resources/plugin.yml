@@ -1,0 +1,25 @@
+name: MysteryCrates
+main: com.toyz.MysteryCrates.MysteryCrates
+version: 1.1
+author: Toyz
+description: Allows you to give users random crates
+commands:
+  crate:
+    description: Base Crate Command
+    
+permissions:
+  crate.help:
+    description: Allows you to see the help menu
+    default: op
+  crate.open:
+    description: Open a crate
+    default: op
+  crate.give:
+    description: Give a user a crate
+    default: op
+  crate.balance:
+    description: Allows users to see there balance
+    default: op
+  crate.reload:
+    description: Allows you to reload the plugin
+    default: op
